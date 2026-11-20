@@ -1,6 +1,7 @@
-package com.sandbox.argparse;
+package com.portscanner.argparse;
 
 import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 public class Argparse {
 
@@ -64,7 +65,7 @@ public class Argparse {
         try {
             InetAddress.getByName(s);
             return true;
-        } catch (Exception e) {
+        } catch (UnknownHostException e) {
             return false;
         }
     }

@@ -1,4 +1,7 @@
-## sandbox
+## Port Scanner
+
+A simple port scanner.
+
 
 ### Commands
 
@@ -10,5 +13,5 @@ $ gradle run
 $ gradle build
 
 # run jar.
-$ java -jar ./build/libs/sandbox-0.0.1.jar
+$ java -jar ./build/libs/portscanner-0.0.1.jar <ip-address>
 ```

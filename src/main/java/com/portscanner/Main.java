@@ -1,10 +1,10 @@
-package com.sandbox;
+package com.portscanner;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.sandbox.argparse.Argparse;
-import com.sandbox.scanner.Portscanner;
+import com.portscanner.argparse.Argparse;
+import com.portscanner.scanner.Portscanner;
 
 public class Main {
 
